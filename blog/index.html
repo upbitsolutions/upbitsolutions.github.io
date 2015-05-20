@@ -17,3 +17,10 @@ layout: default
     <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a>
   </p>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+  document.getElementById("blogtab").className += "active";
+  document.getElementById("mainNav").className = "navbar navbar-default navbar-fixed-top affix";
+});
+
+</script>
