@@ -1,4 +1,5 @@
 language: ruby
+sudo: required
 rvm:
 - 2.1
 # Assume bundler is being used, install step will run `bundle install`.
