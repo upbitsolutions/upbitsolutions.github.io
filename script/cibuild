@@ -1,2 +1,2 @@
-install: sudo bundle install
-script: jekyll build
+sudo bundle install
+jekyll build
