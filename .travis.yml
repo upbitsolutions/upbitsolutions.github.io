@@ -2,6 +2,9 @@ language: ruby
 sudo: required
 rvm:
 - 2.1
+
+before_script:
+  - chmod ./script/cibuild
 # Assume bundler is being used, install step will run `bundle install`.
 script: ./script/cibuild
 
