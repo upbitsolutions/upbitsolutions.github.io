@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://upbitsolutions.pt" # the base hostname & protocol for your site
 twitter_username: upbitsolutions
 github_username:  upbitsolutions
-
+exclude: [vendor]
 # Build settings
 markdown: kramdown
 highlighter: rouge  
